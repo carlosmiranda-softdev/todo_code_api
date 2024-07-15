@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api_todocode:
+    build: api_todocode
+    mem_limit: 512m
+    ports:
+      - "8080:8080"
